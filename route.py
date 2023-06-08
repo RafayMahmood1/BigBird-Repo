@@ -179,4 +179,4 @@ if __name__ == "__main__":
     # File path validations
     # SRC_PATH = os.path.abspath(args.src_path)
     # app.run(host=args.host, port=args.port, debug=args.debug)
-    app.run(port=3000)
+    app.run(port='0.0.0.0')
